@@ -1,7 +1,7 @@
 {
     schema_class => "Hubot::Scripts::log::Schema",
     connect_info => {
-        dsn               => "dbi:SQLite:db/irclog.db",
+        dsn => "dbi:SQLite:db/irclog.db",
     },
     loader_options => {
         dump_directory     => 'lib',
